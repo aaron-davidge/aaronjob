@@ -5,7 +5,7 @@ ini_set('display_errors', 1);
 
 define (DB_USER, "root");
 define (DB_PASSWORD, "password");
-define (DB_DATABASE, "PortfolioDB");
+define (DB_DATABASE, "testdatabase");
 define (DB_HOST, "localhost");
 
 
