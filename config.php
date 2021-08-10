@@ -4,10 +4,14 @@ ini_set('display_errors', 1);
 
 
 define (DB_USER, "root");
-define (DB_PASSWORD, "password");
-define (DB_DATABASE, "mydatabase");
+define (DB_PASSWORD, "root");
+define (DB_DATABASE, "sole");
 define (DB_HOST, "localhost");
 
 
-$mysqli = new mysqli(DB_USER,DB_PASSWORD,DB_DATABASE,DB_HOST);
+$mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_DATABASE);
 ?>
+
+
+
+
