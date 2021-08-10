@@ -3,6 +3,9 @@ $servername = "localhost";
 $username = "username";
 $password = "password";
 
+ini_set('display_errors', 1);
+
+
 // Create connection
 $conn = new mysqli($servername, $username, $password);
 
