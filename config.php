@@ -1,6 +1,6 @@
 <?php
 $servername = "localhost";
-$username = "username";
+$username = "root";
 $password = "password";
 
 ini_set('display_errors', 1);
