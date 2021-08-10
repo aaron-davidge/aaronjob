@@ -9,5 +9,5 @@ define (DB_DATABASE, "mydatabase");
 define (DB_HOST, "localhost");
 
 
-$mysqli = new mysqli($user, $password, $db, $host);
+$mysqli = new mysqli(DB_USER,DB_PASSWORD,DB_DATABASE,DB_HOST);
 ?>
